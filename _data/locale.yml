@@ -19,7 +19,7 @@ en: &EN
   FOLLOW_US               : "Follow us on [NAME]."
   EMAIL_ME                : "Send me an Email."
   EMAIL_US                : "Send us an Email."
-  COPYRIGHT_DATES         : "2021"
+  COPYRIGHT_DATES         : "2022"
 
 en-GB:
   <<: *EN
@@ -29,6 +29,26 @@ en-CA:
   <<: *EN
 en-AU:
   <<: *EN
+
+es: &ES
+  SUBSCRIBE               : "Subscribir"
+  READMORE                : "Leer más"
+  SEARCH                  : "Buscar"
+  CANCEL                  : "Cancel"
+  VIEWS                   : "vistas"
+  LAST_UPDATED            : "ültima modificación"
+  PREVIOUS                : "ANTERIOR"
+  NEXT                    : "SIGUIENTE"
+  ARTICLE_DATE_FORMAT     : "%d de %b de %Y"
+  ARTICLE_LIST_DATE_FORMAT: "%d de %b"
+  STATISTICS              : "[POST_COUNT] artículos, [PAGE_COUNT] páginas."
+  LICENSE_ANNOUNCE        : "Este trabajo está bajo la licencia [LICENSE]."
+  POST_ON_GITHUB          : "Editar en Github"
+  FOLLOW_ME               : "Sígueme [NAME]."
+  FOLLOW_US               : "Síguenos[NAME]."
+  EMAIL_ME                : "Mándame un correo."
+  EMAIL_US                : "Mándanos un correo."
+  COPYRIGHT_DATES         : "2022"
 
 ## => Simplified Chinese
 ########################
@@ -122,8 +142,8 @@ fr: &FR
   LAST_UPDATED            : "Dernière modification"
   PREVIOUS                : "PRÉCÉDENT"
   NEXT                    : "SUIVANT"
-  ARTICLE_DATE_FORMAT     : "%d %b, %Y"
-  ARTICLE_LIST_DATE_FORMAT: "%d %b"
+  ARTICLE_DATE_FORMAT     : "%d %B, %Y"
+  ARTICLE_LIST_DATE_FORMAT: "%d %B"
   STATISTICS              : "[POST_COUNT] articles, [PAGE_COUNT] pages."
   LICENSE_ANNOUNCE        : "Ce travail est sous licence [LICENSE]."
   POST_ON_GITHUB          : "Modifier sur Github"
@@ -144,4 +164,26 @@ fr-FR:
   <<: *FR
 fr-LU:
   <<: *FR
+## => Turkish
+########################
+tr: &TR
+  SUBSCRIBE               : "Takip et"
+  READMORE                : "Devamını Oku"
+  SEARCH                  : "İçerik Ara"
+  CANCEL                  : "İptal"
+  VIEWS                   : "gösterim"
+  LAST_UPDATED            : "Son güncellenme"
+  PREVIOUS                : "ÖNCEKİ"
+  NEXT                    : "SONRAKİ"
+  ARTICLE_DATE_FORMAT     : "%d %b, %Y"
+  ARTICLE_LIST_DATE_FORMAT: "%d %b"
+  STATISTICS              : "Toplam [POST_COUNT] adet gönderim ve [PAGE_COUNT] adet sayfa bulunuyor."
+  LICENSE_ANNOUNCE        : "Bu içerik [LICENSE] ile lisanslanmıştır."
+  POST_ON_GITHUB          : "Github üzerinde düzenle"
+  FOLLOW_ME               : "Beni [NAME] üzerinden takip et."
+  FOLLOW_US               : "Bizi [NAME] üzerinden takip edin."
+  EMAIL_ME                : "Bana email ile ulaşın."
+  EMAIL_US                : "Bize email ile ulaşın."
+  COPYRIGHT_DATES         : "2021"
+
 # @end locale config
